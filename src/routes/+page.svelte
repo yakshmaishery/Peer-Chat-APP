@@ -144,10 +144,7 @@
       <ChatWindow bind:UserMessage={UserMessage} on:SendMessage={SendMessage} bind:LogMessages={LogMessages}/>
    </div>
    <div hidden={!(Window == "")}>
-      <section class="hero">
-         <h1 class="dark:text-white">Capture your screen effortlessly</h1>
-         <!-- <a href="/screenrecorder" class="start-btn">Start Recording</a> -->
-     </section>
+     
    </div>
    <!-- </div> -->
 </div>
